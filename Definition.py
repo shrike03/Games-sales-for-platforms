@@ -63,6 +63,6 @@ def many_chart_pie(df,plt_size,):
           plt.figure(figsize=plt_size)
           # Draw pie chart with labels and percentage display
           plt.pie(df[column], labels=df.index, autopct='%1.1f%%', textprops={'fontsize': 10})
-          plt.title(f'Struktura sprzedaży {column} wg regionów')
+          plt.title(f'Sales breakdown for {column} by region')
           plt.show()
 
